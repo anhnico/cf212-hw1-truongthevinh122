@@ -33,6 +33,6 @@ int get_fibonacci_last_digit_fast(int n){
 int main() {
     int n;
     std::cin >> n;
-    int c = get_fibonacci_last_digit_naive(n);
+    int c = get_fibonacci_last_digit_fast(n);
     std::cout << c << '\n';
     }
